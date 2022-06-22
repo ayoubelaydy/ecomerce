@@ -1,0 +1,376 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!--    <script></script>-->
+       
+<link rel="stylesheet" href="ecommerce.css">
+   
+    <title>nouvil page par js et css</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="utf-8"/>
+    <script>
+      var tab_images=Array(4);
+    tab_images[0]=new Image();
+    tab_images[0].src="images/sport1.jpg"
+    tab_images[1]=new Image();
+    tab_images[1].src="images/aaaa.jpg";
+    tab_images[2]=new Image();
+    tab_images[2].src="images/prodact4.jpg";
+     tab_images[3]=new Image();
+    tab_images[3].src="images/herbograisse.jpg";
+
+    var i=0;
+         function pre()
+         {
+             i--;
+             if(i==-1)
+                 i=3;
+            
+
+
+             var monImage=document.images[13];
+             monImage.src=tab_images[i].src;
+
+             var monImage=document.images[12];
+             monImage.src=tab_images[i].src;
+
+         }
+         
+             function sui(){
+             i++
+         if(i==4)
+             i=0;
+           
+
+             var monImage=document.images[13];
+             monImage.src=tab_images[i].src;
+
+             var monImage=document.images[12];
+             monImage.src=tab_images[i].src;
+   }
+    
+    </script>
+    <style>
+
+      @media screen and (max-width:400px) {
+        nav ul {
+             position: absolute;
+             top: 70px;
+             left: 0px;
+             background-color: #181717;
+             width: 100%;
+         } 
+         nav ul li {
+             display: block;
+             margin-right: 50px;
+             margin-top: 10px;
+             margin-bottom: 10px;
+         }
+      }
+    </style>
+</head>
+
+<body>
+  <div class="groupage"> 
+  <div class="navbar">
+      <nav>
+<ul>
+    <li><a href="aaaaa">HOME</a></li>
+    <li><a href="aaaaa">PRODACTS</a></li>
+    <li><a href="aaaaa">ABOUT</a></li>
+    <li><a href="aaaaa"><img src="images/contact.png" width="15px" height="15px">CONTACT</a></li>
+    <li><a href="aaaaa"><img src="images/créecount.png" width="15px" height="15px">ACCOUNT</a></li>
+</ul>
+      </nav>
+      <header>
+      <div class="logo"><img src="images/prodact4.jpg" width="200px" height="50px"></div>
+      <input type="text" size="500px"placholder="vuiller saisir vous prodact" >
+      <div id="sala"><a href="sala"><img src="images/sala.png" width="25px" height="25px"></a></div>
+       <div id="rechrchea">
+   <div class="categories2"> <img src="images/categorei.png"width="25px" height="25px">
+  <div class="span"> categoreis</div></div>
+  <div class="icon-rechrche" > <img src="images/recherch.png"width="25px" height="25px" ></div>
+  </div>
+
+      </table>
+    </header>
+    
+  </div>
+
+  <div class="categoreiflex">
+  <div id="ctegorai">
+    <img src="images/baseline_account_circle_black_48dp - Copie.png"width="25px" height="25px" ><h3>categoreis</h3>
+
+  </div>
+ 
+<div class="flex">
+    <div><img src="images/iconsiha.png"width="30" height="30px" ><a href="aaaaaaa">health & body</a></div>
+    <div><img src="images/informatics-book.png"width="30" height="30px"><a href="aaaaaa">iformatique</a></div>
+    <div><img src="images/iconrajl.png"width="30" height="30px"><a href="aaaaaa">men's fashion</a></div>
+    <div><img src="images/iconmra.png"width="30" height="30px"><a href="aaaaaa">wemn's fashion </a></div>
+    <div><img src="images/iconsport.png"width="30" height="30px"><a href="aaa">sport</a></div>
+  
+</div>
+<span image=onclik id=precedent onclick="pre()"></span>
+    <div class="cow">
+    <div class="col-0">
+     
+      <div class="photo">
+        <img src="images/sport1.jpg" id="rrr">
+        </div>
+        <div class="photo">
+        <img src="images/aaaa.jpg">
+        </div>
+        
+        <div class="photo">
+        <img src="images/prodact4.jpg">
+        </div>
+        
+        <div class="photo">
+        <img src="images/herbograisse.jpg">
+        </div>
+        
+        
+        </div>   
+        
+        </div>
+        <span id="suivant" onclick="sui()" ></span> 
+    </div>
+ 
+     
+<div class="flex2">
+  <div><a href="aaaaaaa"><h3>mondaille</h3></a></div>
+  <div><a href="aaaaaa"><h3>Articlle petite prix</h3></a></div>
+  <div><a href="aaa"> <h3>paiement sucrisé</h3></a></div>
+  <div><a href="aaa"><img src="images/sport0.jpg" width="70px "height="70px"></a></div>
+  <div><a href="aaa"> titre3</a></div>
+
+
+</div>
+
+
+         
+          <div id="titrprodact"><h3>Deals of the week</h3></div>
+          <div class="flexprodact">
+              <div class="imageprodact"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact2">
+                <div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+               <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                 <h3 id="mad">45MAD</h3> 
+              </div></div>
+              <div class="imageprodact3"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact4"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              
+            
+          </div>
+
+          
+
+         
+          <div id="titrprodact-2"><h3>for you madam and for your child</h3></div>
+          <div class="flexprodact">
+              <div class="imageprodact5"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact6">
+                <div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+               <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                 <h3 id="mad">45MAD</h3> 
+              </div></div>
+              <div class="imageprodact7"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact8"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              
+            
+          </div>
+          
+
+         
+          <div id="titrprodact-3"><h3>Medicines to restore your youth</h3></div>
+          <div class="flexprodact">
+              <div class="imageprodact9"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact10">
+                <div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+               <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                 <h3 id="mad">45MAD</h3> 
+              </div></div>
+              <div class="imageprodact11"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact12"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              
+            
+          </div>
+          
+         
+          <div id="titrprodact-4"><h3>Modern tools put field of informatics at your fingertips</h3></div>
+          <div class="flexprodact">
+              <div class="imageprodact13"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact14">
+                <div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+               <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                 <h3 id="mad">45MAD</h3> 
+              </div></div>
+              <div class="imageprodact15"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact16"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              
+            
+          </div>
+          
+
+         
+          <div id="titrprodact-5"><h3>sports products to become like your champions</h3></div>
+          <div class="flexprodact">
+              <div class="imageprodact17"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact18">
+                <div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+               <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                 <h3 id="mad">45MAD</h3> 
+              </div></div>
+              <div class="imageprodact19"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact20"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              
+            
+          </div>
+          <div id="titrprodact-6"><h3>for you sir and for your child</h3></div>
+          <div class="flexprodact">
+            <div class="imageprodact21"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+              <br> <span>DOIA FA30L...</span><span class="tax" >-10%</span>
+                <h3 id="mad">45MAD</h3> 
+             </div></div>
+              <div class="imageprodact22">
+                <div class="prix">
+               <br> <span>DOIA FA30Lbbbbb...</span>
+                 <h3 id="mad">45MAD</h3> 
+              </div></div>
+              <div class="imageprodact23"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              <div class="imageprodact24"><div class="prix"><s> <span class="prixpasser">444 MAD</span></s>
+                <br> <span>DOIA FA30L...</span><span class="tax" >-50%</span>
+                  <h3 id="mad">45MAD</h3> 
+               </div></div>
+              
+            
+          </div>
+
+<footer>
+  <div id="label"> 
+  <label for="pays">dans quel pays habitez-vous!</label>
+  <select name="pays" id="pays">
+  <optgroup label="Europe">
+     <option value="france">France</option> 
+     <option value="espagne">Espagne</option> 
+     <option value="italie">Italie</option> 
+     <option value="royaume-uni">Uoyaume-Uni</option> 
+      
+      </optgroup>
+      <optgroup label="Amrique">
+        <option value="canada">Canada</option>  
+        <option value="etas-unis">Etas-Unis</option>  
+      </optgroup>
+      <optgroup label="Asei">
+           <option value="chaine">Chaine</option>
+          <option value="japon">Japon</option>
+      </optgroup>
+      <optgroup label="Afriqua">
+        maroc
+      </optgroup>
+  
+  </select>
+  <input type="text" value="dh"  id="capitalePays">
+</div>
+  <h3>find us on :</h3>
+<div class="resausoceau">
+<div ><img src="images/wat.png" width="50px" height="50px"> </div>
+<div ><img src="images/twitre.png" width="50px" height="50px"> </div>
+<div><img src="images/youtub.png" width="50px" height="50px" > </div>
+<div ><img src="images/instagram.png" width="50px" height="50px"> </div>
+
+
+</div>
+
+</footer>
+
+        </div>
+        <script>
+            let conteur=0;
+            let message=document.getElementById("suivant");
+            let message2=document.getElementById("precedent");
+               while(document.images[i+12].onmouseleave){
+            
+               message.innerHTML="<span>suiv</span>";
+             }
+             document.images[conteur+12].onmouseleave=function(){
+            
+            message.innerHTML="<span>suiv</span>";
+            message2.innerHTML="<span>prec</span>";
+          }
+      
+               document.images[conteur+13].onmouseleave=function(){
+            
+               message.innerHTML="<span>suiv</span>";
+               message2.innerHTML="<span>prec</span>";
+             }
+             document.images[conteur+14].onmouseleave=function(){
+            
+            message.innerHTML="<span>suiv</span>";
+            message2.innerHTML="<span>prec</span>";
+          }
+          document.images[conteur+15].onmouseleave=function(){
+            
+            message.innerHTML="<span>suiv</span>";
+            message2.innerHTML="<span>prec</span>";
+          }
+         
+        
+
+        </script>
+      
+    </body>
+                       
+                        
+ 
+</html>

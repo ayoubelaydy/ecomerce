@@ -1,0 +1,22 @@
+body{
+    width: 1000px;
+}
+*{box-sizing: border-box;}
+.flex{
+    border-color: red;
+width: 900PX;
+padding: 20px;
+margin: 20px auto;
+display: flex;
+justify-content: space-between;}
+.flex div{ 
+    border-color: red;
+   border: solid 1px red;
+    text-align: center;
+    color: black;
+/*
+      width: 50px;
+    height: 50px;
+*/
+   width: calc(90%/3);
+}
